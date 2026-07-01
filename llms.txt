@@ -1,0 +1,21 @@
+# Sam's Hotel
+
+> Sam's Hotel is a comfortable, mid-range hotel in Hyderabad, India, offering Deluxe Rooms, Executive Suites and Family Rooms, along with dining, a spa, free parking and 24/7 front desk service.
+
+Sam's Hotel focuses on clean, comfortable rooms, honest pricing with no hidden charges, and friendly, round-the-clock service for both business and leisure travellers.
+
+## Pages
+
+- [Home](https://samshotelsite.netlify.app/index.html): Overview of the hotel, highlights and featured package.
+- [About](https://samshotelsite.netlify.app/about.html): The hotel's story, values and full list of amenities.
+- [Rooms](https://samshotelsite.netlify.app/rooms.html): Deluxe Room, Executive Suite and Family Room details and pricing.
+- [Packages](https://samshotelsite.netlify.app/packages.html): Stay packages (Weekend Getaway, Business Stay, Family Package) and a cost calculator.
+- [Gallery](https://samshotelsite.netlify.app/gallery.html): Photos of rooms, dining and common areas.
+- [Booking](https://samshotelsite.netlify.app/booking.html): Online booking enquiry form.
+- [Contact](https://samshotelsite.netlify.app/contact.html): Address, phone, email and a contact form.
+
+## Contact
+
+- Address: MG Road, Hyderabad, Telangana, India
+- Phone: +91-9876543210
+- Email: stay@samshotel.com

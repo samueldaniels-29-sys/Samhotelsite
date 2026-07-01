@@ -1,0 +1,53 @@
+/* Sam's Hotel Website */
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,Helvetica,sans-serif;line-height:1.6;color:#213547;background:#f7fbff}
+.container{width:90%;max-width:1100px;margin:auto}
+.site-header{background:#0f4c81;color:#fff;position:sticky;top:0;z-index:10}
+.header-inner{display:flex;justify-content:space-between;align-items:center;padding:16px 0}
+.logo{color:#fff;font-size:24px;font-weight:bold;text-decoration:none}
+.nav-links{display:flex;gap:16px}
+.nav-links a{color:#fff;text-decoration:none;font-weight:600}
+.nav-links a:hover{text-decoration:underline}
+.menu-btn{display:none;background:#fff;color:#0f4c81;border:none;padding:8px 12px;font-size:22px;border-radius:6px;cursor:pointer}
+.hero{min-height:70vh;background:linear-gradient(rgba(15,76,129,.75),rgba(15,76,129,.55));color:#fff;display:flex;align-items:center;text-align:center;position:relative;overflow:hidden}
+.hero-bg{position:absolute;inset:0;z-index:-1;width:100%;height:100%;object-fit:cover}
+.hero h1{font-size:48px;margin-bottom:12px}
+.hero p{font-size:20px;margin-bottom:24px}
+.page-banner{background:linear-gradient(135deg,#0f4c81,#1780a1);color:#fff;padding:70px 0;text-align:center}
+.page-banner h1{font-size:40px;margin-bottom:10px}
+.section{padding:50px 0}
+.section h2{text-align:center;margin-bottom:28px;font-size:32px;color:#0f4c81}
+.section p.lead{text-align:center;max-width:650px;margin:-16px auto 30px;color:#4a5b6b}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{background:#fff;padding:24px;border-radius:14px;box-shadow:0 4px 18px rgba(0,0,0,.08);transition:transform .3s}
+.card:hover{transform:translateY(-6px)}
+.card h3{color:#0f4c81;margin-bottom:10px}
+.room-img,.gallery-grid svg,.dest-img{width:100%;height:170px;border-radius:10px;margin-bottom:14px;background:#eef7ff;display:block}
+.price{color:#0f7b4f;font-weight:bold;font-size:18px}
+.btn{display:inline-block;background:#ffb703;color:#1d3557;padding:12px 18px;margin:6px;border-radius:8px;text-decoration:none;border:none;cursor:pointer;font-weight:bold;font-size:15px}
+.btn:hover{background:#ffc533}
+.btn-outline{background:transparent;border:2px solid #fff;color:#fff}
+.btn.small{padding:8px 12px}
+.highlight{background:#e9f6ff;border-radius:14px;text-align:center;margin-bottom:40px;padding:30px 20px}
+.two-column{display:grid;grid-template-columns:1.5fr 1fr;gap:30px;align-items:start}
+.info-box,.calculator-box,.form-section form{background:#fff;padding:26px;border-radius:14px;box-shadow:0 4px 18px rgba(0,0,0,.08)}
+.info-box ul{margin-left:22px}
+form{max-width:650px;margin:auto}
+label{display:block;margin-top:14px;font-weight:bold}
+input,select,textarea{width:100%;padding:12px;margin-top:6px;border:1px solid #c9d6df;border-radius:8px;font-size:16px;font-family:inherit}
+.result{margin-top:12px;font-weight:bold;color:#0f7b4f}
+.amenity-icons{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;text-align:center}
+.amenity-icons div{background:#fff;padding:22px 10px;border-radius:14px;box-shadow:0 4px 18px rgba(0,0,0,.08)}
+.amenity-icons svg{width:44px;height:44px;margin-bottom:10px}
+.filter-buttons{text-align:center;margin-bottom:24px}
+.gallery-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.gallery-grid svg{height:190px;box-shadow:0 4px 18px rgba(0,0,0,.08)}
+.testimonials{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.testimonial{background:#fff;padding:24px;border-radius:14px;box-shadow:0 4px 18px rgba(0,0,0,.08)}
+.testimonial .stars{color:#ffb703;margin-bottom:8px}
+.site-footer{background:#0f4c81;color:#fff;padding-top:32px}
+.footer-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:25px}
+.site-footer a{color:#ffdd77}
+.copyright{text-align:center;padding:18px;background:#0a355b;margin-top:24px}
+@media(max-width:900px){.cards,.footer-grid,.amenity-icons{grid-template-columns:repeat(2,1fr)}.gallery-grid{grid-template-columns:repeat(2,1fr)}.two-column{grid-template-columns:1fr}.testimonials{grid-template-columns:1fr}}
+@media(max-width:650px){.menu-btn{display:block}.nav-links{display:none;flex-direction:column;width:100%;background:#0a355b;padding:14px;margin-top:12px;border-radius:8px}.nav-links.show{display:flex}.header-inner{flex-wrap:wrap}.hero h1{font-size:32px}.hero p{font-size:16px}.cards,.footer-grid,.gallery-grid,.amenity-icons{grid-template-columns:1fr}.page-banner h1{font-size:30px}}
