@@ -6,13 +6,13 @@ Sam's Hotel focuses on clean, comfortable rooms, honest pricing with no hidden c
 
 ## Pages
 
-- [Home](https://samshotelsite.netlify.app/index.html): Overview of the hotel, highlights and featured package.
-- [About](https://samshotelsite.netlify.app/about.html): The hotel's story, values and full list of amenities.
-- [Rooms](https://samshotelsite.netlify.app/rooms.html): Deluxe Room, Executive Suite and Family Room details and pricing.
-- [Packages](https://samshotelsite.netlify.app/packages.html): Stay packages (Weekend Getaway, Business Stay, Family Package) and a cost calculator.
-- [Gallery](https://samshotelsite.netlify.app/gallery.html): Photos of rooms, dining and common areas.
-- [Booking](https://samshotelsite.netlify.app/booking.html): Online booking enquiry form.
-- [Contact](https://samshotelsite.netlify.app/contact.html): Address, phone, email and a contact form.
+- [Home](https://samhotelsite.netlify.app/index.html): Overview of the hotel, highlights and featured package.
+- [About](https://samhotelsite.netlify.app/about.html): The hotel's story, values and full list of amenities.
+- [Rooms](https://samhotelsite.netlify.app/rooms.html): Deluxe Room, Executive Suite and Family Room details and pricing.
+- [Packages](https://samhotelsite.netlify.app/packages.html): Stay packages (Weekend Getaway, Business Stay, Family Package) and a cost calculator.
+- [Gallery](https://samhotelsite.netlify.app/gallery.html): Photos of rooms, dining and common areas.
+- [Booking](https://samhotelsite.netlify.app/booking.html): Online booking enquiry form.
+- [Contact](https://samhotelsite.netlify.app/contact.html): Address, phone, email and a contact form.
 
 ## Contact
 
